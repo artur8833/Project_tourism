@@ -1,7 +1,4 @@
-from flask import Flask, render_template
-from flask_admin import Admin
 from flask_login import LoginManager
-from webapp.admin import RouteImageView, form, CoordinateModelView, DetailModelView, VisualModelView
 from webapp.extensions import db, migrate
 from webapp.model import Route, Coordinate, Detail, Visual
 from webapp.user.model import User
